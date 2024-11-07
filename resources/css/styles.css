@@ -29,7 +29,7 @@ p, ul, li {
 
 /* Color Panels/Containers */
 .container.color {
-    background: linear-gradient(rgba(244, 239, 239, 0.3), rgba(255, 255, 255, 0.3)), url("../Images/ferns.png");
+    background: linear-gradient(rgba(244, 239, 239, 0.3), rgba(255, 255, 255, 0.3)), url("../images/ferns.png");
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-size: cover; 
 }
