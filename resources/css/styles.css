@@ -1,0 +1,108 @@
+/* Regular Heading Elements */
+h1 {
+    font-family: "Anton SC";
+    font-weight: 400px;
+    font-size: 58px;
+}
+
+h2 {
+    font-family: "Afacad Flux";
+    font-weight: 700;
+    font-size: 36px;
+    text-shadow: 2px 2px 5px white; 
+}
+
+p, ul, li {
+    font-family: "Mona Sans";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+/* All Containers */
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+
+/* Color Panels/Containers */
+.container.color {
+    background: linear-gradient(rgba(244, 239, 239, 0.3), rgba(255, 255, 255, 0.3)), url("../Images/ferns.png");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; 
+}
+
+.color-box.green {
+    background-color: #116530;
+    color: white;
+}
+.color-box.blue-green {
+    background-color: #21b6a8;
+    color: white;
+}
+.color-box.neon-green {
+    background-color: #a3ebb1;
+    color: black;
+}
+.color-box.kelly-green {
+    background-color: #18a558;
+    color: white;
+}
+
+.color-box, .font-panel, .text-panel {
+    border: dotted;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Fonts Contatiners n shit */
+.regular.anton-sc {
+    font-family: "Anton SC";
+    font-weight: 400;
+}
+
+.bold.anton-sc {
+    font-family: "Anton SC";
+    font-weight: 700;
+}
+
+.italic.anton-sc {
+    font-family: "Anton SC";
+    font-weight: 400;
+    font-style: italic;
+}
+
+.regular.mona-sans {
+    font-family: "Mona Sans";
+    font-weight: 400;
+}
+
+.bold.mona-sans {
+    font-family: "Mona Sans";
+    font-weight: 700;
+}
+
+.italic.mona-sans {
+    font-family: "Mona Sans";
+    font-weight: 400;
+    font-style: italic;
+}
+
+.regular.afacad-flux {
+    font-family: "Afacad Flux";
+    font-weight: 400;
+}
+
+.bold.afacad-flux {
+    font-family: "Afacad Flux";
+    font-weight: 700;
+}
+
+.italic.afacad-flux {
+    font-family: "Afacad Flux";
+    font-weight: 400;
+    font-style: italic;
+}
